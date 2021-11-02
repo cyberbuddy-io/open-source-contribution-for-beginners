@@ -8,7 +8,8 @@ This repository targets beginners to guide them about open source and help them 
 
 1- Fork the repository
 
-	To fork the repository click on the fork button on the top right corner of the repository section. It will create a copy of that repository in your account.
+	To fork the repository click on the fork button on the top right corner of the repository section.
+	It will create a copy of that repository in your account.
 
 2- Clone the repository
 
@@ -28,7 +29,7 @@ This repository targets beginners to guide them about open source and help them 
 5- Make changes in the contributing branch.
 
 	to preview all changes:
-	use- `git diff `
+	use- `git diff`
 
 
 6- Stage the changes

@@ -8,32 +8,32 @@ This repository targets beginners to guide them about open source and help them 
 
 1- Fork the repository
 
-To fork the repository click on the fork button on the top right corner of the repository section. It will create a copy of that repository in your account.
+	To fork the repository click on the fork button on the top right corner of the repository section. It will create a copy of that repository in your account.
 
 2- Clone the repository
 
     i. Copy the URL of the repository.
 
-   ii. To copy the contents of the repository in your local 
-cmd:  `git clone <paste the copied url from github>`
+    ii. To copy the contents of the repository in your local 
+        cmd:  `git clone <paste the copied url from github>`
 
-opt: open your cloned repository in an editor(ide)
+	opt: open your cloned repository in an editor(ide)
 
 3- Create a new branch (name of the branch should be your username)
 
-cmd: `git checkout -b <your-new-branch-name>`
+	cmd: `git checkout -b <your-new-branch-name>`
 
 4- Read the repository's contributing guide before starting any editing.
 
 5- Make changes in the contributing branch.
 
-to preview all changes.
-use- `git diff `
+	to preview all changes:
+	use- `git diff `
 
 
 6- Stage the changes
 	use: `git add <your-full-file-name> (with path)`
-(to stage all files, use `git add.`)
+	(to stage all files, use `git add.`)
 
 
 7- Commit the changes 	

@@ -13,12 +13,12 @@ This repository targets beginners to guide them about open source and help them 
 
 2- Clone the repository
 
-    i. Copy the URL of the repository.
+   i. Copy the URL of the repository.
 
-    ii. To copy the contents of the repository in your local 
+   ii. To copy the contents of the repository in your local 
         cmd:  `git clone <paste the copied url from github>`
 
-	opt: open your cloned repository in an editor(ide)
+        opt: open your cloned repository in an editor(ide)
 
 3- Create a new branch (name of the branch should be your username)
 
@@ -28,8 +28,8 @@ This repository targets beginners to guide them about open source and help them 
 
 5- Make changes in the contributing branch.
 
-	to preview all changes:
-	use- `git diff`
+   to preview all changes:
+   use- `git diff`
 
 
 6- Stage the changes

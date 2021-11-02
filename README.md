@@ -22,7 +22,7 @@ This repository targets beginners to guide them about open source and help them 
 
 3- Create a new branch (name of the branch should be your username)
 
-	cmd: `git checkout -b <your-new-branch-name>`
+   cmd: `git checkout -b <your-new-branch-name>`
 
 4- Read the repository's contributing guide before starting any editing.
 
@@ -41,7 +41,7 @@ This repository targets beginners to guide them about open source and help them 
 	use: `git commit -m "Your message"`
 
 8- Push the changes
-	use: `git push -set-upstream origin <ypur-file-name>`
+	use: `git push -set-upstream origin <your-file-name>`
 
 9- Pull request(requesting the project creator to add/merge your changes to the main repository)
 

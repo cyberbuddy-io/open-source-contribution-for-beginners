@@ -4,6 +4,8 @@
 
 This repository targets beginners to guide them about open source and help them make their first contribution.
 
+# How to contribute:
+
 1- Fork the repository
 
 To fork the repository click on the fork button on the top right corner of the repository section. It will create a copy of that repository in your account.

@@ -11,6 +11,10 @@ This repository targets beginners to guide them about open source and help them 
    To fork the repository click on the fork button on the top right corner of the repository section.
    It will create a copy of that repository in your account.
 
+
+   ![fork](https://user-images.githubusercontent.com/89595539/140019145-786cf5a3-e036-400e-8de4-f4a2fe3a8871.gif)
+
+
 2- Clone the repository
 
    i. Copy the URL of the repository.
@@ -19,10 +23,18 @@ This repository targets beginners to guide them about open source and help them 
     `git clone <paste the copied url from github>`
 
   opt: open your cloned repository in an editor(ide)
+  
+  
+  ![clone](https://user-images.githubusercontent.com/89595539/140020670-6dd21f16-58aa-43f6-95fd-a5cd24ffb4ac.gif)
+
 
 3- Create a new branch (name of the branch should be your username)
 
    `git checkout -b <your-new-branch-name>`
+   
+   
+   ![commit](https://user-images.githubusercontent.com/89595539/140020764-f8423c32-b29c-43ef-8463-dbc8c8359ae5.gif)
+
 
 4- Read the repository's contributing guide before starting any editing.
 
@@ -51,6 +63,13 @@ This repository targets beginners to guide them about open source and help them 
    made appropriately.
 
    third: click on create pull request button.
+
+
+![contribute](https://user-images.githubusercontent.com/89595539/140020922-8c379a58-f950-4be6-a4d5-5c7249c6a627.gif) 	
+
+
+![pr](https://user-images.githubusercontent.com/89595539/140020940-afa143df-f469-4055-813f-ec5196121fbc.gif)
+
 
 10- Now you just have to wait for the project creator/owner to review your request and merge your changes
     to the original code. Congratulations on doing your very first contribution to an open source!

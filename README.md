@@ -11,7 +11,7 @@ This repository targets beginners to guide them about open source and help them 
    To fork the repository click on the fork button on the top right corner of the repository section.
    It will create a copy of that repository in your account.
 
-
+![](C:\\Users\\DELL\\Downloads\\fork.gif)
 
 2- Clone the repository
 

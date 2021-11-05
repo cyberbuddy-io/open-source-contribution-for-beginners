@@ -26,7 +26,7 @@ This repository targets beginners to guide them about open source and help them 
    ii. To copy the contents of the repository in your local 
     `git clone <paste the copied url from github>`
 
-  opt: open your cloned repository in an editor(ide)
+   Then you can open the cloned repository in any IDE and make changes.
 
 3- Create a new branch (name of the branch should be your username)
 

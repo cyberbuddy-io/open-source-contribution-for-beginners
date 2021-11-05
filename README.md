@@ -67,12 +67,21 @@ This repository targets beginners to guide them about open source and help them 
 
 9. Pull request(requesting the project creator to add/merge your changes to the main repository)
 
+<<<<<<< HEAD
   i. Ensure that you make PR to the right branch.
 
  ii. Add relevent title and description to your pull request that explains the changes you 
       made appropriately.
 
 iii. Click on create pull request button.
+=======
+   i. Ensure that you make PR to the right branch.
+
+   ii. Add relevent title and description to your pull request that explains the changes you 
+      made appropriately.
+
+   iii. Click on create pull request button.
+>>>>>>> 06689c330e925320c6469e9daa200e3f8653f54e
 
 
 ![contribute](https://user-images.githubusercontent.com/89595539/140020922-8c379a58-f950-4be6-a4d5-5c7249c6a627.gif) 	

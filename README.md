@@ -19,14 +19,14 @@ This repository targets beginners to guide them about open source and help them 
 
    i. Copy the URL of the repository.
 
+
+![clone](https://user-images.githubusercontent.com/89595539/140020670-6dd21f16-58aa-43f6-95fd-a5cd24ffb4ac.gif)
+
+
    ii. To copy the contents of the repository in your local 
     `git clone <paste the copied url from github>`
 
   opt: open your cloned repository in an editor(ide)
-  
-  
-  ![clone](https://user-images.githubusercontent.com/89595539/140020670-6dd21f16-58aa-43f6-95fd-a5cd24ffb4ac.gif)
-
 
 3- Create a new branch (name of the branch should be your username)
 

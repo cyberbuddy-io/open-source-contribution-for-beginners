@@ -38,18 +38,20 @@ iii. Or any other IDE of your choice
 
 ![clone](https://user-images.githubusercontent.com/89595539/140020670-6dd21f16-58aa-43f6-95fd-a5cd24ffb4ac.gif)
 
+
+
+
+![WhatsApp Video 2021-11-06 at 3 43 55 AM](https://user-images.githubusercontent.com/89595539/140911717-41fba50a-68fa-45a9-9efe-fb752cf13921.gif)
+
    
    ii. To copy the contents of the repository in your local
     `git clone <paste the copied url from github>`
 
    Then you can open the cloned repository in any IDE and make changes.
 
-4. Create a new branch (name of the branch should be your username)
+4. Switch to the branch you want to contribute to.
 
-   `git checkout -b <your-new-branch-name>`
-   
-   
-   ![commit](https://user-images.githubusercontent.com/89595539/140020764-f8423c32-b29c-43ef-8463-dbc8c8359ae5.gif)
+   `git checkout  <your-branch-name>`
 
 
 5. Read the repository's contributing guide before starting any editing.
@@ -85,6 +87,8 @@ iii. Or any other IDE of your choice
 
 
 ![pr](https://user-images.githubusercontent.com/89595539/140020940-afa143df-f469-4055-813f-ec5196121fbc.gif)
+
+   iv. Make sure to mention the issue you want to fix in the description of your pull request. (Format :`Refer to issue #<issue-number>`)
 
 
 11. Now you just have to wait for the project creator/owner to review your request and merge your changes

@@ -40,12 +40,14 @@ iii. Or any other IDE of your choice
 
 
 
+   ii. To copy the contents of the repository in your local
+    `git clone <paste the copied url from github>`
+    
+    
 
 ![WhatsApp Video 2021-11-06 at 3 43 55 AM](https://user-images.githubusercontent.com/89595539/140911717-41fba50a-68fa-45a9-9efe-fb752cf13921.gif)
 
    
-   ii. To copy the contents of the repository in your local
-    `git clone <paste the copied url from github>`
 
    Then you can open the cloned repository in any IDE and make changes.
 

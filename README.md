@@ -73,7 +73,7 @@ iii. Or any other IDE of your choice
    `git commit -m "Your message"`
 
 9. Push the changes
-   `git push -set-u origin <your-branch-name>`
+   `git push -u origin <your-branch-name>`
 
 10. Pull request(requesting the project creator to add/merge your changes to the main repository)
 

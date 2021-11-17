@@ -1,8 +1,8 @@
-# Open source contribution for beginners
+# Open source:octocat: contribution for beginners
 ![GitHub](https://img.shields.io/github/license/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub contributors](https://img.shields.io/github/contributors/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub issues](https://img.shields.io/github/issues-raw/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub last commit](https://img.shields.io/github/last-commit/cyberbuddy-io/open-source-contribution-for-beginners)
 
 
-This repository targets beginners to guide them about open source and help them make their first contribution.
+This repository targets beginners:beginner: to guide them about open source and help them make their first contribution.
 
 
 # Prerequisites:
@@ -10,11 +10,12 @@ This repository targets beginners to guide them about open source and help them 
 2. Git CLI
 3. An IDE:
 
-  i. VSCode
- 
- ii. Sublime for HTML, CSS and JS
+	i. VSCode
 
-iii. Or any other IDE of your choice
+	ii. Sublime for HTML, CSS and JS
+
+	iii. Or any other IDE of your choice
+
 
 
 # How to contribute:
@@ -36,7 +37,7 @@ iii. Or any other IDE of your choice
    i. Copy the URL of the repository.
 
 
-![clone](https://user-images.githubusercontent.com/89595539/140020670-6dd21f16-58aa-43f6-95fd-a5cd24ffb4ac.gif)
+	![clone](https://user-images.githubusercontent.com/89595539/140020670-6dd21f16-58aa-43f6-95fd-a5cd24ffb4ac.gif)
 
 
 
@@ -45,7 +46,7 @@ iii. Or any other IDE of your choice
     
     
 
-![WhatsApp Video 2021-11-06 at 3 43 55 AM](https://user-images.githubusercontent.com/89595539/140911717-41fba50a-68fa-45a9-9efe-fb752cf13921.gif)
+	![WhatsApp Video 2021-11-06 at 3 43 55 AM](https://user-images.githubusercontent.com/89595539/140911717-41fba50a-68fa-45a9-9efe-fb752cf13921.gif)
 
    
 
@@ -77,25 +78,25 @@ iii. Or any other IDE of your choice
 
 10. Pull request(requesting the project creator to add/merge your changes to the main repository)
 
-   i. Ensure that you make PR to the right branch.
+	i. Ensure that you make PR to the right branch.
 
-   ii. Add relevent title and description to your pull request that explains the changes you 
-      made appropriately.
+	ii. Add relevent title and description to your pull request that explains the changes you 
+	made appropriately.
 
-   iii. Click on create pull request button.
-
-
-![contribute](https://user-images.githubusercontent.com/89595539/140020922-8c379a58-f950-4be6-a4d5-5c7249c6a627.gif) 	
+	iii. Click on create pull request button.
 
 
-![pr](https://user-images.githubusercontent.com/89595539/140020940-afa143df-f469-4055-813f-ec5196121fbc.gif)
+	![contribute](https://user-images.githubusercontent.com/89595539/140020922-8c379a58-f950-4be6-a4d5-5c7249c6a627.gif) 	
 
-   iv. Make sure to mention the issue you want to fix in the description of your pull request. (Format :`Refer to issue #<issue-number>`)
+
+	![pr](https://user-images.githubusercontent.com/89595539/140020940-afa143df-f469-4055-813f-ec5196121fbc.gif)
+
+	iv. Make sure to mention the issue you want to fix in the description of your pull request. (Format :`Refer to issue #<issue-number>`)
 
 
 11. Now you just have to wait for the project creator/owner to review your request and merge your changes
     to the original code. 
-    **Congratulations on doing your very first contribution to an open source!**
+    **Congratulations on doing your very first contribution to an open source!:fist_right::fist_left:**
 
 
-**This Documentation is maintained by [@MJ-03](https://github.com/MJ-03).**
+	**This Documentation is maintained by [@MJ-03](https://github.com/MJ-03).**

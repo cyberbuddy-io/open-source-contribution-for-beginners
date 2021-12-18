@@ -11,11 +11,18 @@ This repository targets beginners:beginner: to guide them about open source and 
 3. An IDE:
 
 	i. VSCode
+<<<<<<< HEAD
 
 	ii. Sublime for HTML, CSS and JS
 
 	iii. Or any other IDE of your choice
 
+=======
+
+	ii. Sublime for HTML, CSS and JS
+
+	iii. Or any other IDE of your choice
+>>>>>>> 755b9fe8b7e904057b59552db179631531b98c03
 
 
 # How to contribute:
@@ -61,10 +68,6 @@ This repository targets beginners:beginner: to guide them about open source and 
 
 6. Make changes in the contributing branch.
 
-   to preview all changes:
-   `git diff`
-
-
 7. Stage the changes
    `git add <your-full-file-name> (with path)`
 	(to stage all files, use `git add .`)
@@ -74,7 +77,7 @@ This repository targets beginners:beginner: to guide them about open source and 
    `git commit -m "Your message"`
 
 9. Push the changes
-   `git push -set-upstream origin <your-file-name>`
+   `git push -u origin <your-branch-name>`
 
 10. Pull request(requesting the project creator to add/merge your changes to the main repository)
 

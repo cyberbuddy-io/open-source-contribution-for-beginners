@@ -1,8 +1,8 @@
-# Open source contribution for beginners
+# Open source:octocat: contribution for beginners
 ![GitHub](https://img.shields.io/github/license/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub contributors](https://img.shields.io/github/contributors/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub issues](https://img.shields.io/github/issues-raw/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub last commit](https://img.shields.io/github/last-commit/cyberbuddy-io/open-source-contribution-for-beginners)
 
 
-This repository targets beginners to guide them about open source and help them make their first contribution.
+This repository targets beginners:beginner: to guide them about open source and help them make their first contribution.
 
 
 # Prerequisites:
@@ -11,10 +11,18 @@ This repository targets beginners to guide them about open source and help them 
 3. An IDE:
 
 	i. VSCode
+<<<<<<< HEAD
 
 	ii. Sublime for HTML, CSS and JS
 
 	iii. Or any other IDE of your choice
+
+=======
+
+	ii. Sublime for HTML, CSS and JS
+
+	iii. Or any other IDE of your choice
+>>>>>>> 755b9fe8b7e904057b59552db179631531b98c03
 
 
 # How to contribute:
@@ -91,7 +99,7 @@ This repository targets beginners to guide them about open source and help them 
 
 11. Now you just have to wait for the project creator/owner to review your request and merge your changes
     to the original code. 
-    **Congratulations on doing your very first contribution to an open source!**
+    **Congratulations on doing your very first contribution to an open source!:fist_right::fist_left:**
 
 
-**This Documentation is maintained by [@MJ-03](https://github.com/MJ-03).**
+	**This Documentation is maintained by [@MJ-03](https://github.com/MJ-03).**

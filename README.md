@@ -22,7 +22,7 @@ This repository targets beginners:beginner: to guide them about open source and 
 	ii. Sublime for HTML, CSS and JS
 
 	iii. Or any other IDE of your choice
->>>>>>> 755b9fe8b7e904057b59552db179631531b98c03
+>>>>>>> 
 
 
 # How to contribute:

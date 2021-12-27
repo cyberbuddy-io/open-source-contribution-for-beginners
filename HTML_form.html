@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input tags</title>
+    <style>
+         body{
+             background-color: rgb(138, 158, 91);
+         }
+     </style>
+    
+ </head>
+
+<body>
+    <h2>This is HTML forms tuturial</h2>
+
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="MyName" id="name">
+        </div>
+        <br>
+        <div>
+            RollNo: <input type="text" name="MyRoll">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="MyEmail">
+        </div>
+        <br>
+        <div>
+            Date Of Birth: <input type="date" name="MyDOB">
+        </div>
+        <br>
+        <div>
+            Age: <input type="number" name="MyAge">
+        </div>
+        <br>
+        <div>
+            Are you above 18? <input type="checkbox" name="Above18" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="MyGender"> Female <input type="radio" name="MyGender">
+            Others <input type="radio" name="MyGender">
+        </div>
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="MyText" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+
+</body>
+
+</html>

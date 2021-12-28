@@ -8,8 +8,8 @@ def main():
     reset()
     Screen()
     up()
-    goto(-320,-195)
-    width(70)
+    goto(-320,-195);
+    width(70);
 
     for pcolor in peacecolors:
         color(pcolor)

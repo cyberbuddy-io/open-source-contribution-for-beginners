@@ -11,18 +11,13 @@ This repository targets beginners:beginner: to guide them about open source and 
 3. An IDE:
 
 	i. VSCode
-<<<<<<< HEAD
-
 	ii. Sublime for HTML, CSS and JS
 
 	iii. Or any other IDE of your choice
 
-=======
-
 	ii. Sublime for HTML, CSS and JS
 
 	iii. Or any other IDE of your choice
->>>>>>> 
 
 
 # How to contribute:

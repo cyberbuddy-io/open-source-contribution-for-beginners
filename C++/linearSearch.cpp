@@ -4,6 +4,7 @@ class LinearSearch{
     private:
     int n;
     int k;
+    int counter=0;
     int c=1;
     int arr[];
 
@@ -26,16 +27,14 @@ public:
         cin >> k;
         for (int i = 0; i <= n;i++){
             if(arr[i]==k){
-                cout << "<----------     Element " << arr[i] << " found at position->  " << i+1<<"     ---------->"<<endl;
-                break;
+                cout << "<----------     Element " << arr[i] << " found at position->  " << i + 1 << "     ---------->" << endl;
+            }  
+            if(arr[i]!=k){
+                counter += 1;
             }
-            else  {
-                    if(i==n){
-                        
-                    cout << "<----------     Element not present     ---------->" << endl;
-                    break;
-                    }
-                }
+            if(counter==n+1){
+                    cout << "<----------     Element not found     ----------->" << endl;
+            }
             }
         }
 };

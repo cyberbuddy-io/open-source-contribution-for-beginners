@@ -16,7 +16,7 @@ public:
         cin >> n;
         for (int i = 0; i < n; i++)
         {
-            cout << "Enter the [" << c << "] element (please enter in sorted order) ->  ";
+            cout << "Enter the [" << c << "] element (!! DO NOT REPEAT !!) ->  ";
             cin >> a[i];
             c++;
         }
@@ -67,6 +67,10 @@ public:
                     cout << "<----------     Item found at position " << mid << "   ----------> " << endl;
                     break;
                 }
+            }
+            else{
+                cout << "<----------   Item not present    ---------->" << endl;
+                break;
             }
         }
     }

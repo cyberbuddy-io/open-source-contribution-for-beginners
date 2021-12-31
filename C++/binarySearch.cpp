@@ -30,7 +30,7 @@ public:
         mid = (left + right) / 2;
         while (right >= left)
         {
-            if (a[left]== k)
+            if (a[left] == k)
             {
                 cout << "<----------     Item found at position " << left << "   ----------> " << endl;
                 break;
@@ -41,7 +41,7 @@ public:
                 break;
             }
 
-           else  if (a[mid] == k)
+            else if (a[mid] == k)
             {
                 cout << "<----------     Item found at position " << mid << "   ----------> " << endl;
                 break;
@@ -49,7 +49,7 @@ public:
             else if (a[mid] > k)
             {
 
-                right = mid ;
+                right = mid;
                 mid = (left + right) / 2;
                 if (a[mid] == k)
                 {
@@ -57,10 +57,10 @@ public:
                     break;
                 }
             }
-            else if(a[mid]<k)
+            else if (a[mid] < k)
             {
 
-                left = mid ;
+                left = mid;
                 mid = (left + right) / 2;
                 if (a[mid] == k)
                 {
@@ -68,10 +68,9 @@ public:
                     break;
                 }
             }
-            else{
-                cout << "<----------   Item not present    ---------->" << endl;
-                break;
-            }
+
+            cout << "<----------   Item not present    ---------->" << endl;
+            break;
         }
     }
 };

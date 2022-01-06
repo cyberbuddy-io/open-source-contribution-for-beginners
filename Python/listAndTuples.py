@@ -1,0 +1,17 @@
+students={"Marry","John"}
+print(students)
+print(type(students))
+print(len(students))
+students=["Marry","John"]
+print(students)
+print(type(students))
+students.append("Sam")
+students.insert(3,"George")
+students.pop(0)
+students.remove("George")
+print(students)
+print(len(students))
+students=("Marry","John")
+print(students)
+print(type(students))
+print(len(students))

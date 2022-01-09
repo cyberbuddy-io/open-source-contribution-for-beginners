@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/actionBar"
+    android:orientation="vertical"
+    tools:context=".home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingEnd="0dp"
+        android:paddingStart="20dp"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ahmedabad"
+                android:textColor="@color/lightBlack"
+                android:id="@+id/location"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.04" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_18"
+                    android:fontFamily="@font/fira_sans_condensed"
+                    android:letterSpacing="0.04"
+                    android:textColor="@color/selectedIcon"
+                    android:textSize="56sp" />
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/celsius"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="2dp"
+                    android:contentDescription="@string/todo" />
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:cardCornerRadius="12dp"
+                app:cardBackgroundColor="@color/gray">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:paddingHorizontal="9dp"
+                    android:paddingVertical="4dp"
+                    android:id="@+id/type"
+                    android:text="@string/cloudy"
+                    android:fontFamily="sans-serif-medium"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="300dp"
+                android:layout_height="240dp"
+                android:src="@drawable/raining" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/info" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/today"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:textColor="#39383A"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/day" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:id="@+id/week" />
+
+</LinearLayout>

@@ -6,6 +6,7 @@
 
 body {
 	background-color: #030722;
+	box-shadow: inset 0 0 20em 2em #000;
 	background-image: url(../images/bg.png);
 	background-repeat: repeat;
 	background-size: 20%;
@@ -126,7 +127,6 @@ section .card {
 	border: 10px solid transparent;
 	border-image-source: url(../images/frame.png);
 	border-image-slice: 40;
-	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
 }
 
 section .card a {

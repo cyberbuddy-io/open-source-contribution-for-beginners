@@ -1,0 +1,305 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background-color: #030722;
+	background-image: url(../images/bg.png);
+	background-repeat: repeat;
+	background-size: 20%;
+	background-attachment: fixed;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/*============== Disable Selection ========*/
+
+body {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+/*============== Scrollbar ===============*/
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: blue orange;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #1c1c1e;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: gold;
+  border-radius: 20px;
+  border: 3px solid #030722;
+}
+
+/*================== Header ====================*/
+
+header {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	align-items: center;
+}
+
+header h1 {
+	font-size: 52px;
+	color: gold;
+	font-family: 'Playfair Display SC', serif;
+	margin: 0 40px;
+}
+
+header h1::FIRST-LETTER {
+	font-size: 70px;
+	font-family: 'Playfair Display SC', serif;
+}
+
+header div {
+	display: flex;
+	padding: 10px 0px;
+	align-items: center;
+}
+
+header div .git-card {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	width: auto;
+	padding: 5px 13px;
+	min-width: 170px;
+	height: auto;
+	margin-right: 40px;
+	transition: 0.2s ease-in-out;
+	color: white;
+	opacity: 0.85;
+}
+
+header div .git-card:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+header div img {
+	margin-right: 10px;
+}
+
+header div:hover {
+	color: rgba(444, 444, 444, 1.0);
+	opacity: 1;
+}
+
+header div img:hover {
+	color: rgba(444, 444, 444, 1.0);
+	opacity: 1;
+}
+
+/*=============== Main Section =================*/
+
+section {
+	width: auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 30px 40px;
+}
+
+section .card {
+	width: 60%;
+	padding: 25px 30px;
+	background-color: #FBF6E0;
+	margin: 50px auto;
+	border: 10px solid transparent;
+	border-image-source: url(../images/frame.png);
+	border-image-slice: 40;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+}
+
+section .card a {
+	display: block;
+	width: 100%;
+	margin: auto;
+}
+
+section .card a img {
+	width: 120px;
+	display: block;
+	margin: auto;
+	border-radius: 12px;
+	margin-bottom: 10px;
+	margin: auto;
+}
+
+section .card h1 {
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+
+	font-size: 27px;
+	text-align: center;
+	margin: 12px auto;
+	background: linear-gradient(140deg, #000, #000,#000, #000,#000, #D3D3D3, #000,#000,#000,#000,#000,#000,#000,#000,#000);
+	background-size: 350%;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+section .card h1:hover {
+	animation: shine 4s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: -350px;
+  }
+  20% {
+    background-position: 0px;
+  }
+}
+
+section .card h2 {
+	font-size: 15px;
+	text-align: center;
+	color: #4A1A4B;
+}
+
+section .card main {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+section .card main a {
+	margin-top: 30px;
+	height: 20px;
+	text-align: center;
+	color: #890304;
+	font-weight: 500;
+	border: 2px solid transparent;
+	transition: 0.2s ease-in-out;
+}
+
+section .card main a:nth-child(2) {
+	border-left: 2px solid #890304;
+}
+
+section .card main a:hover {
+	background-color: #890304;
+	color: white;
+	font-weight: 400;
+}
+
+section .card figure {
+	position: relative;
+}
+
+section .card figure img {
+	width: 80px;
+	position: absolute;
+	top: -70px;
+	left: -80px;
+	transform: rotate(-15deg);
+	animation: glow 2.5s infinite alternate ease-in-out;
+}
+
+@keyframes glow {
+	0% {
+		filter: drop-shadow(0px 0px 15px 20px rgba(255, 215, 0, 0.5))
+	}
+
+	50% {filter: drop-shadow(0px 0px 25px rgba(255, 215, 0, 0.7));}
+
+	100% {filter: drop-shadow(0px 0px 15px rgba(444, 444, 444, 0.5), 0px 0px 15px rgba(255, 215, 0, 0.5));}
+}
+
+section .card figure img:hover {
+	animation: wobble 0.8s alternate ease-in-out, glow 2s infinite alternate ease-in-out;
+}
+
+@keyframes wobble {
+	0% {transform: rotate(-15deg);}
+	25% {transform: rotate(-25deg);}
+	50% {transform: rotate(-15deg);}
+	75% {transform: rotate(-25deg);}
+	100% {transform: rotate(-15deg);}
+}
+
+/*============== Branding ==================*/
+
+p {
+	width: auto;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+p a {
+	color: gold;
+}
+
+
+/*============== Media Queries =============*/
+
+@media screen and (max-width: 1300px) {
+	section {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	section {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (max-width: 700px) {
+	header {
+		grid-template-columns: 1fr;
+	}
+
+	header h1 {
+		font-size: 40px;
+		margin: 0;
+	}
+
+	header span {
+		font-size: 59px;
+	}
+
+	header div {
+		padding: 10px 30px;
+	}
+
+	header div img {
+		opacity: 1;
+	}
+
+	header div .git-card {
+		margin-top: 20px;
+		zoom: 0.7;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	section {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}

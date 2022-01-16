@@ -36,12 +36,15 @@ function create_card(pro_url, name, img_url, contri) {
 fetch("https://api.github.com/repos/cyberbuddy-io/open-source-contribution-for-beginners/contributors?per_page=100")
 .then((response) => response.json())
 .then((user) => {
-	/*let first_contri = document.getElementsByClassName("card")[0].children;
-	first_contri[1].href = user[2].html_url;
-	first_contri[1].children[1].innerHTML = user[2].login;
-	first_contri[2].innerHTML = "Contributions: " + user[2].contributions;*/
-/*	console.log(user[0]);
-	console.log(first_contri);*/
+	var top = document.getElementById('top').children;
+	top[0].href = user[2].html_url;
+	top[0].children[0].src = user[2].avatar_url;
+	top[0].children[1].innerHTML = user[2].login;
+	document.getElementById('contri_number').innerHTML = "Contributions: " + user[2].contributions;
+	var bottom = document.getElementById('bottom').children;
+	bottom[0].href = user[2].html_url;
+	bottom[1].href = "https://skyline.github.com/" + user[2].login + "/2021";
+
 	for(var i = 3; i <= 100; i++){
 		create_card(user[i].html_url, user[i].login, user[i].avatar_url, user[i].contributions);
 	}

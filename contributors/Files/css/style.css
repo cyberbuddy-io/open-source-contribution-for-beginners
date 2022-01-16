@@ -255,7 +255,6 @@ p a {
 	color: gold;
 }
 
-
 /*============== Media Queries =============*/
 
 @media screen and (max-width: 1300px) {
@@ -301,5 +300,21 @@ p a {
 @media screen and (max-width: 650px) {
 	section {
 		grid-template-columns: repeat(1, 1fr);
+	}
+
+	section .card h1 {
+		animation: shine 4s linear infinite;
+	}
+
+	section .card figure img {
+		animation: wobble 5s infinite alternate ease-in-out, glow 2s infinite alternate ease-in-out;
+	}
+
+	@keyframes wobble {
+		0% {transform: rotate(-15deg);}
+		5% {transform: rotate(-25deg);}
+		10% {transform: rotate(-15deg);}
+		15% {transform: rotate(-25deg);}
+		20% {transform: rotate(-15deg);}
 	}
 }

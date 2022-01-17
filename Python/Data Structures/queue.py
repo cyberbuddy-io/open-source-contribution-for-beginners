@@ -1,3 +1,7 @@
+from typing import Any
+from xmlrpc.client import Boolean
+
+
 class Queue:
     def __init__(self) -> None:
         """creates a queue data structure using linear array
@@ -14,7 +18,7 @@ class Queue:
         """
         return str(self.q)
 
-    def enqueue(self, element) -> None:
+    def enqueue(self, element: Any) -> None:
         """Add an object at the end of the Queue
 
         Args:
@@ -22,7 +26,7 @@ class Queue:
         """
         self.q.append(element)
     
-    def dequeue(self):
+    def dequeue(self) -> Any:
         """Remove and return an element from the front of the Queue
 
         Raises:
@@ -38,10 +42,19 @@ class Queue:
         else:
             raise Exception("Queue Underflow")
     
-    def isEmpty(self):
+    def isEmpty(self) ->Boolean:
         """Check if the Queue is Empty
 
         Returns:
             Boolean: True if Empty, False otherwise.
         """
         return True if self.q == [] else False
+    
+    def reverse(self) -> None:
+        self.q.reverse()
+    
+    def search(self, value: Any) -> int:
+        i = 0
+        for i in range(len(self.q)):
+            if self.q[i] == value:
+                return i

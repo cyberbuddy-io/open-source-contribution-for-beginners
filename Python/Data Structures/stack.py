@@ -1,3 +1,6 @@
+from typing import Any, Boolean
+
+
 class Stack:
     def __init__(self) -> None:
         """Creates a stack data structure
@@ -18,7 +21,7 @@ class Stack:
         """
         self.stck.append(element)
     
-    def pop(self):
+    def pop(self) -> Any:
         """Remove an element from the top of the stack
 
         Raises:
@@ -34,7 +37,7 @@ class Stack:
         else:
             raise Exception("Stack Underflow")
     
-    def isEmpty(self):
+    def isEmpty(self) -> Boolean:
         """Checks if the stack is empty or not
 
         Returns:

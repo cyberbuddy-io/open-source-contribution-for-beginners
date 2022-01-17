@@ -1,7 +1,3 @@
-from typing import Any
-from xmlrpc.client import Boolean
-
-
 class Stack:
     def __init__(self) -> None:
         """Creates a stack data structure
@@ -22,7 +18,7 @@ class Stack:
         """
         self.stck.append(element)
     
-    def pop(self) -> Any:
+    def pop(self):
         """Remove an element from the top of the stack
 
         Raises:
@@ -38,7 +34,7 @@ class Stack:
         else:
             raise Exception("Stack Underflow")
     
-    def isEmpty(self) -> Boolean:
+    def isEmpty(self):
         """Checks if the stack is empty or not
 
         Returns:

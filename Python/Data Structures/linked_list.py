@@ -1,5 +1,4 @@
 from typing import Any
-from xmlrpc.client import Boolean
 
 
 class Node:
@@ -34,11 +33,11 @@ class linked_list:
         """
         self.head = Node()
     
-    def isEmpty(self) -> Boolean:
+    def isEmpty(self) -> bool:
         """Check if the Linked List is empty.
 
         Returns:
-            Boolean: True if empty, False otherwise
+            bool: True if empty, False otherwise
         """
         return True if self.head.value == self.head.next == None else False
 
@@ -242,14 +241,14 @@ class linked_list:
         # return the list as a string
         return str(list_of_values)
     
-    def __contains__(self, key: Any) -> Boolean:
+    def __contains__(self, key: Any) -> bool:
         """Overloads 'in' operator of Python
 
         Args:
             key (Any): Value to be checked if exists in the Linked List
 
         Returns:
-            Boolean: True if it is present in the List, False otherwise
+            bool: True if it is present in the List, False otherwise
         """
 
         # empty list contains nothing

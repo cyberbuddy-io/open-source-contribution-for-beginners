@@ -1,5 +1,4 @@
 from typing import Any
-from xmlrpc.client import Boolean
 
 
 class Queue:
@@ -42,11 +41,11 @@ class Queue:
         else:
             raise Exception("Queue Underflow")
     
-    def isEmpty(self) ->Boolean:
+    def isEmpty(self) ->bool:
         """Check if the Queue is Empty
 
         Returns:
-            Boolean: True if Empty, False otherwise.
+            bool: True if Empty, False otherwise.
         """
         return True if self.q == [] else False
     

@@ -1,4 +1,4 @@
-from typing import Any, Boolean
+from typing import Any
 
 
 class Stack:
@@ -37,7 +37,7 @@ class Stack:
         else:
             raise Exception("Stack Underflow")
     
-    def isEmpty(self) -> Boolean:
+    def isEmpty(self) -> bool:
         """Checks if the stack is empty or not
 
         Returns:

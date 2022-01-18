@@ -18,7 +18,7 @@ public:
 int main()
 {
     demo obj;
-    char r[50]="vmm education";
+    char r[50]="ravneet kaur";
     obj<r;
     obj.display();
 }

@@ -1,10 +1,13 @@
-# Open source:octocat: contribution for beginners &nbsp;&nbsp;&nbsp; <img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg">
+# Open source:octocat: contribution for beginners 
+
 ![GitHub](https://img.shields.io/github/license/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub contributors](https://img.shields.io/github/contributors/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub issues](https://img.shields.io/github/issues-raw/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub last commit](https://img.shields.io/github/last-commit/cyberbuddy-io/open-source-contribution-for-beginners)
 
 This repository targets beginners:beginner: to guide them about open source and help them make their first contribution.
 
+## This Project is 
+<a href="https://vercel.com"><img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"></a>
 
-# Prerequisites:
+# Prerequisites: 
 1. A github account
 2. Git CLI
 3. An IDE:

@@ -318,3 +318,13 @@ p a {
 		20% {transform: rotate(-15deg);}
 	}
 }
+.pbv{
+	margin-top: 2px;
+	margin-bottom: 8px;
+	display: grid;
+	place-items: center;
+}
+#verc:hover{
+	transform: translateY(-2px);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}

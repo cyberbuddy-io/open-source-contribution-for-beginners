@@ -5,7 +5,7 @@
 This repository targets beginners:beginner: to guide them about open source and help them make their first contribution.
 
 ## This Project is 
-<a href="https://vercel.com"><img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"></a>
+<a href="https://vercel.com/?utm_source=opencyberbuddy&utm_campaign=oss"><img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"></a>
 
 # Prerequisites: 
 1. A github account

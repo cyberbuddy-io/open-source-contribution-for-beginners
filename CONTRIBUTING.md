@@ -24,7 +24,7 @@ How to create an issue? Follow these simple steps:
 
 ![image](https://user-images.githubusercontent.com/89595539/155835927-d42edccf-d6ea-4039-b959-0634caae8f82.png)
 
-&emsp; (d) Add a proper title and description about the issue, mention the owner of the repository ([lovishprabhakar](https://github.com/lovishprabhakar)) to get the issue assigned to you and click on `Submit new Issue` as shown:
+&emsp; (d) Add a proper title and description about the issue, mention the owner of the repository ([lovishprabhakar](https://github.com/lovishprabhakar)) to get the issue assigned to you and click on `Submit new issue` as shown:
 
 ![image](https://user-images.githubusercontent.com/89595539/155836558-13365109-9204-4e34-be91-b03c0809e106.png)
 
@@ -46,4 +46,4 @@ How to create an issue? Follow these simple steps:
 &emsp; Wondering how to create a Pull Request? It's explained properly in the [Readme File](https://github.com/cyberbuddy-io/open-source-contribution-for-beginners/blob/master/README.md).
 
 
-
+### Congratulations! You just contributed to the reposritory! Make sure to star the repository because there is a lot to come in the future.

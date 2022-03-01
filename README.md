@@ -4,7 +4,7 @@
 
 This repository targets beginners:beginner: to guide them about open source, help them make their first contribution and help them know their code.
 
-This text explains how to push your local changes to the remote repository and how to create a Pull Request. If you already know that, just go through the [Contributing Guidelines](https://github.com/lovishprabhakar/open-source-contribution-for-beginners/blob/master/CONTRIBUTING.md) and you are ready to contribute!
+The following text explains how to push your local changes to the remote repository and how to create a Pull Request. If you already know that, just go through the [Contributing Guidelines](https://github.com/lovishprabhakar/open-source-contribution-for-beginners/blob/master/CONTRIBUTING.md) and you are ready to contribute!
 
 ## This Project is 
 <a href="https://vercel.com/?utm_source=opencyberbuddy&utm_campaign=oss"><img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"></a>

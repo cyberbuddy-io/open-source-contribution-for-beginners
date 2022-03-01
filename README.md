@@ -73,7 +73,7 @@ The following text explains how to push your local changes to the remote reposit
 
 9. Push the changes
    `git push -u origin <your-branch-name>`
-10. Create an issue in the repository describing the changes you want to make. To know how to do that, see the [Contributing Guidelines](https://github.com/cyberbuddy-io/open-source-contribution-for-beginners/blob/master/CONTRIBUTING.md)
+10. Create an issue in the repository describing the changes you want to make. To know how to do that, see the [Contributing Guidelines](https://github.com/cyberbuddy-io/open-source-contribution-for-beginners/blob/master/CONTRIBUTING.md).
 
 11. Pull request(requesting the project creator to add/merge your changes to the main repository)
 

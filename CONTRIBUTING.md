@@ -2,7 +2,7 @@
 
 Hey Contributor! Welcome to the world of open source contributions.
 
-This text will explain step by step the procedure to be followed while contributing to this repository.
+The following text will explain step by step the procedure to be followed while contributing to this repository.
 
 Make sure to go through the [Readme File](https://github.com/cyberbuddy-io/open-source-contribution-for-beginners/blob/master/README.md) to get a clear idea about how to contribute to open source GitHub repositories.
 

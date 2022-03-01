@@ -4,7 +4,7 @@
 
 This repository targets beginners:beginner: to guide them about open source, help them make their first contribution and help them know their code.
 
-The following text explains how to push your local changes to the remote repository and how to create a Pull Request. If you already know that, just go through the [Contributing Guidelines](https://github.com/lovishprabhakar/open-source-contribution-for-beginners/blob/master/CONTRIBUTING.md) and you are ready to contribute!
+The following text explains how to push your local changes to the remote repository and how to create a Pull Request. If you already know that, just go through the [Contributing Guidelines](https://github.com/cyberbuddy-io/open-source-contribution-for-beginners/blob/master/CONTRIBUTING.md) and you are ready to contribute!
 
 ## This Project is 
 <a href="https://vercel.com/?utm_source=opencyberbuddy&utm_campaign=oss"><img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"></a>
@@ -73,7 +73,7 @@ The following text explains how to push your local changes to the remote reposit
 
 9. Push the changes
    `git push -u origin <your-branch-name>`
-10. Create an issue in the repository describing the changes you want to make. To know how to do that, see the [Contributing Guidelines](https://github.com/lovishprabhakar/open-source-contribution-for-beginners/blob/master/CONTRIBUTING.md)
+10. Create an issue in the repository describing the changes you want to make. To know how to do that, see the [Contributing Guidelines](https://github.com/cyberbuddy-io/open-source-contribution-for-beginners/blob/master/CONTRIBUTING.md)
 
 11. Pull request(requesting the project creator to add/merge your changes to the main repository)
 

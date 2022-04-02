@@ -16,6 +16,6 @@ jobs:
           with:
             issue-number: ${{ github.event.issue.number }}
             body: |
-              \assign
+              /assign
               Hey Contributor! You can start working on the issue. Good luck!
               

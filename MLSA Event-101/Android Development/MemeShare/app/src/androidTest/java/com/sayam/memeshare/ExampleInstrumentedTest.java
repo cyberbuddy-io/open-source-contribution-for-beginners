@@ -1,4 +1,4 @@
-package com.sayam.recyclerviewbairminimumapp;
+package com.sayam.memeshare;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.sayam.recyclerviewbairminimumapp", appContext.getPackageName());
+        assertEquals("com.sayam.memeshare", appContext.getPackageName());
     }
 }

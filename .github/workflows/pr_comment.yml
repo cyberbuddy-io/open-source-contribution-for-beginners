@@ -1,15 +1,16 @@
-on: pull_request
+on:
+  pull_request:
 
 jobs:
-  example_comment_pr:
+  test:
     runs-on: ubuntu-latest
-    name: An example job to comment a PR
     steps:
-      - name: 'Comment PR'
-        uses: actions/github-script@0.3.0
-        if: github.event_name == 'pull_request'
+      - uses: mshick/add-pr-comment@v1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const { issue: { number: issue_number }, repo: { owner, repo }  } = context;
-            github.issues.createComment({ issue_number, owner, repo, body: 'Heya! Thanks for contributing! Your Pull Request will be reviewed shortly. Keep learning!' });
+          message: |
+            Heya! Thanks for your contribution! Your Pull Request will be reviewed shortly. Keep learning!
+           
+            
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
+          allow-repeats: false # This is the default

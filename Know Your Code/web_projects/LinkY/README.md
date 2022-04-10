@@ -15,6 +15,6 @@ LinkY, A Linktree CLONE -
 
 5. Turn On github pages on your repository.
 
-![Video Tutorial](https://im3.ezgif.com/tmp/ezgif-3-bb04858685.mp4)
+![Video Tutorial](https://im3.ezgif.com/tmp/ezgif-3-103f3c09db.gif)
 
 Volah, You made it. Time for some coffee break.

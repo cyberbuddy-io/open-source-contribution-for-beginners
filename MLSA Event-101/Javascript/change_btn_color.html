@@ -13,9 +13,12 @@
 
 
 	<script type="text/javascript">
-		document.getElementById('btn').addEventListener('click',function() {
-			document.getElementById('to_change').style.backgroundColor = "blue";
-		});
+		let submitBtn = document.getElementById('btn');
+		submitBtn.addEventListener('click',FuncA);
+
+		function FuncA(){
+			alert('You Clicked Button!!')
+		}
 
 	</script>
 </body>

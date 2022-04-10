@@ -1,5 +1,7 @@
 # LinkY
-LinkY, A Linktree CLONE - ![image](https://user-images.githubusercontent.com/72328959/162631868-822980fc-1c0c-431d-8b53-0f891336b78b.png)
+LinkY, A Linktree CLONE - 
+
+![image](https://user-images.githubusercontent.com/72328959/162631868-822980fc-1c0c-431d-8b53-0f891336b78b.png)
 
 <h3>How To Use?</h3>
 

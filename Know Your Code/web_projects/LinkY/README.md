@@ -9,5 +9,12 @@ LinkY, A Linktree CLONE -
 2. Create a Round Profile Image from the link given - Create Round Profile Image - https://profilepicturemaker.com/
 ![Tutorial To Create Round Image](https://github.com/kartikthakur7107/open-source-contribution-for-beginners/blob/master/Know%20Your%20Code/web_projects/LinkY/LinkY.gif?raw=true)
 3. Replace the downloaded Image in assests with your Image.
-4. Turn On github pages on your repository
+4.Replace the various social media links with you social handles
+
+![image](https://im3.ezgif.com/tmp/ezgif-3-3a34ecb25e.png)
+
+5. Turn On github pages on your repository.
+
+![Video Tutorial](https://im3.ezgif.com/tmp/ezgif-3-bb04858685.mp4)
+
 Volah, You made it. Time for some coffee break.

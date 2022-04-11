@@ -11,10 +11,10 @@ LinkY, A Linktree CLONE -
 3. Replace the downloaded Image in assests with your Image.
 4.Replace the various social media links with you social handles
 
-![image](https://im3.ezgif.com/tmp/ezgif-3-3a34ecb25e.png)
+![image](https://www.linkpicture.com/q/html-changes.png)
 
 5. Turn On github pages on your repository.
 
-![Video Tutorial](https://im3.ezgif.com/tmp/ezgif-3-103f3c09db.gif)
+![Video Tutorial](https://www.linkpicture.com/q/ezgif.com-gif-maker_58.gif)
 
 Volah, You made it. Time for some coffee break.

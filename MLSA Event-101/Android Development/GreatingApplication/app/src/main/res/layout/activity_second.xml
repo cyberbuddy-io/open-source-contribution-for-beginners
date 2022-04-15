@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/imageViwBg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="408dp"
+        android:layout_marginBottom="724dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.007"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009"
+        app:srcCompat="@drawable/mainbg"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/occ"
+        android:layout_width="199dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginBottom="65dp"
+        android:text="@string/textview"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/toNae"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/toNae"
+        android:layout_width="0dp"
+        android:textColor="@color/black"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_marginBottom="54dp"
+        android:text="@string/textview"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/forName"
+        app:layout_constraintEnd_toEndOf="@+id/forName"
+        app:layout_constraintStart_toStartOf="@+id/forName"
+        app:layout_constraintTop_toBottomOf="@+id/occ" />
+
+    <TextView
+        android:id="@+id/forName"
+        android:layout_width="205dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:textSize="30sp"
+        android:layout_marginBottom="267dp"
+        android:text="@string/textview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toNae" />
+</androidx.constraintlayout.widget.ConstraintLayout>

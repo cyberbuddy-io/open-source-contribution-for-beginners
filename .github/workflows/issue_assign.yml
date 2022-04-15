@@ -20,6 +20,6 @@ jobs:
         with:
 #           required_label: Up-For-Grab
           assigned_label: Assigned
-          days_until_warning: 7
-          days_until_unassign: 14
+          days_until_warning: 4
+          days_until_unassign: 7
           stale_assignment_label: Open

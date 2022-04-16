@@ -1,0 +1,1 @@
+#This is the code added in python to print the series 1,-4,7,-10,...,-40

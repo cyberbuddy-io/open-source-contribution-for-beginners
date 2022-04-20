@@ -1,0 +1,5 @@
+print ("enter your first  number")
+inpnum1 =input ()
+print ("enter your second number")
+inpnum2 =input ()
+print ("you entered", (int (inpnum1) + int(inpnum2)  ) *10)

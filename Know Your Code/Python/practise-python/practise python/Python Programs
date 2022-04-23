@@ -1,0 +1,67 @@
+#Program 1
+#User enters the year
+#year = int(input("Enter year: "))
+ 
+year=2004
+#leap year check
+if year %4 == 0 and year % 100 !=0:
+    print(year, "is a leap year") 
+elif year % 100 == 0:
+  print(year,"is not a leap year")
+elif year % 400 == 0 :
+  print(year,"is a leap year")
+else :
+  print(year, " is not a leap year")
+
+  
+#Program 2
+# taking input from year
+number = int(input("Enter any number: "))
+number=67
+
+#prime number is always greater than 1
+if number > 1:
+  for i in range(2,number):
+    if (number % i) == 0:
+       print (number,"is not a prime number")
+    break
+else:
+  print(number,"is not a prime number")
+  #if the entered number  is les than or equal to 1
+  # then it is not prime number
+
+#Program 3
+#Python program to find the largest number among the three input niumbers
+# Change the values of num1 , num2 ,and num3
+# for a different result
+
+num1=200
+num2=-250
+num3=270
+
+#un commment following lines to take three numbers from user
+num1 = int(input("Enter first number: ")) 
+num2 = int(input("Enter second number: ")) 
+num3 = int(input("Enter third number: ")) 
+
+if (num1 >= num2) and (num1 >= num3):
+  largest = num1
+elif (num2 >= num1) and (num2 >= num3):
+  largest = num2 
+else: 
+  largest = num3
+print ("The largestnummber is ", largest)
+
+
+#Program 4
+# Example of the recursion in python to
+#find the factorial of a given number
+
+def factorial(num):
+  """This function calls itself to find the factorial of a number"""
+  if num == 1:
+     return 1
+  else:  
+       return (num * factorial(num- 1))
+num = 6
+print("factorial of" , num, " is:", factorial(num))

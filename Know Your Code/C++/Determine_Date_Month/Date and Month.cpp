@@ -1,5 +1,5 @@
-Write a  Program to determine the date.
-		*/
+// Write a  Program to determine the date.
+		
 		
 
 		// Explanation:
@@ -116,4 +116,4 @@ Write a  Program to determine the date.
 		  return decode;
 		}
 
-		*/
+		*

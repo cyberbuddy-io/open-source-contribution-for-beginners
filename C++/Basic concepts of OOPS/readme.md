@@ -1,1 +1,0 @@
-### Some basic concepts of OOPS in C++

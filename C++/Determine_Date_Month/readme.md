@@ -1,1 +1,0 @@
-### A C++ program to determine date.

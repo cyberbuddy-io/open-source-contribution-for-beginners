@@ -1,1 +1,0 @@
-To find if a number is Even or Odd in Python

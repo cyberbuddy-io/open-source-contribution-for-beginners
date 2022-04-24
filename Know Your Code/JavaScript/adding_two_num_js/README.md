@@ -1,1 +1,0 @@
-Heyya, I am writing a code so that I can add two numbers using Java Script

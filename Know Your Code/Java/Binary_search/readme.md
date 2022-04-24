@@ -1,1 +1,0 @@
-### A Java program to search an integer in an array using binary search algorithm.

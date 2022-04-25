@@ -1,4 +1,4 @@
-# Scheduling Algorithms 
+# Scheduling Algorithms
 
 ## First-come , First-served (FCFS) Scheduling
 
@@ -8,7 +8,8 @@
 - Its implementation is based on FIFO queue.
 - Poor in performance as average wait time is high.
 
-For eg : 
+For eg :
+
 <table align="center">
    <tr>
       <td>Process</td>
@@ -44,7 +45,7 @@ For eg :
 </table>
 <br>
 
-*Gantt Chart*
+_Gantt Chart_
 
 <table align="center">
  <tr>
@@ -81,7 +82,7 @@ Wait time of each process is as follows −
  <td>P3</td>
  <td>13</td>
  </tr>
-</table>  
+</table>
 
 <br>
 

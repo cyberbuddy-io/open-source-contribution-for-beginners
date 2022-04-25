@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="10dp"
+    android:weightSum="4"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?attr/selectableItemBackground"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1.4"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:textColor="@color/lightBlack"
+        android:text="@string/wednesday"
+        android:id="@+id/week_name"
+        android:fontFamily="sans-serif-medium" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1.4">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/cloudy"
+            android:id="@+id/icon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/week_day_temp"
+            android:text="@string/_18"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/selectedIcon"
+            android:fontFamily="sans-serif-medium" />
+
+        <ImageView
+            android:layout_width="4dp"
+            android:layout_height="4dp"
+            android:src="@drawable/celsiussmall"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="2dp"
+            android:contentDescription="@string/todo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/week_night_temp"
+            android:text="@string/_18"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textColor="#2983AC"
+            android:fontFamily="sans-serif-medium" />
+
+        <ImageView
+            android:layout_width="4dp"
+            android:layout_height="4dp"
+            android:src="@drawable/celsiussmall"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="2dp"
+            android:contentDescription="@string/todo" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

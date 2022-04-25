@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Greating App</string>
+    <string name="card">Welcome to Card Generator</string>
+    <string name="click_to_start">Click To Start</string>
+    <string name="entre_the_name_of_occasion">Entre the Name of Occasion</string>
+    <string name="entre_the_name_whom_you_want_to_wish">Entre the name whom you want to wish</string>
+    <string name="name">Entre your name ,It will display as by _yourName</string>
+    <string name="gen">Click to Generate</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+</resources>

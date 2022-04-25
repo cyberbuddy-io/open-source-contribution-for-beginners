@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Documents</title>
+	<style type="text/css">
+		#tri_div, #squ_div, #rec_div, #cir_div, #sph_div, #cub_div{
+			visibility: hidden;
+		}
+	</style>
+
+</head>
+<body>
+	<button id="squ" type="number">square</button>
+	<button id="tri" type="number">triangle</button>
+	<button id="rec" type="number">rectangle</button>
+	<button id="cir" type="number">circle</button>
+	<button id="sph" type="number">sphere</button>
+	<button id="cub" type="number">cube</button>
+	<br>
+
+<div id="squ_div">
+	<input id="s1" type="number" placeholder="please enter the side">
+	<button onclick="squ_area(document.getElementById('s1').value)">submit</button>
+	<p id="result_squ"></p>
+</div>
+
+<div id="tri_div">
+ 		<br>
+ 		<input id="i1" type="number" placeholder="please enter base">
+ 		<input id="i2" type="number" placeholder="please enter height">
+ 		<button onclick="tri_area(document.getElementById('i1').value, document.getElementById('i2').value)">submit</button>
+ 		<p id="result_tri"></p>
+</div>	
+
+<div id="rec_div">
+ 		<br>
+ 		<input id="r1" type="number" placeholder="please enter length">
+ 		<input id="r2" type="number" placeholder="please enter breadth">
+ 		<button onclick="rec_area(document.getElementById('r1').value, document.getElementById('r2').value)">submit</button>
+ 		<p id="result_rec"></p>
+</div>
+
+<div id="cir_div">
+	<br>
+	<input id="rad1" type="number" placeholder="please enter radius">
+	<button onclick="cir_area(document.getElementById('rad1').value)">submit</button>
+	<p id="result_cir"></p>
+</div>
+
+<div id="sph_div">
+	<br>
+	<input id="sphrad1" type="number" placeholder="please enter radius">
+	<button onclick="sph_area(document.getElementById('sphrad1').value)">submit</button>
+	<p id="result_sph"></p>
+</div>
+
+<div id="cub_div">
+	<br>
+	<input id="cubside" type="number" placeholder="please enter side">
+	<button onclick="cub_area(document.getElementById('cubside').value)">submit</button>
+	<p id="result_cub"></p>
+</div>
+
+ <script>
+ 		const btn_squ = document.getElementById('squ');
+ 		const btn_tri = document.getElementById('tri');
+ 		const btn_rec = document.getElementById('rec');
+		const btn_cir = document.getElementById('cir');
+		const btn_sph = document.getElementById('sph');
+		const btn_cub = document.getElementById('cub');
+
+ 		function squ_area(side) {
+ 			document.getElementById('result_squ').innerHTML = side * side;  
+ 		}
+
+ 		function tri_area(base, height) {
+ 			document.getElementById('result_tri').innerHTML = 0.5 * base * height;
+ 		}
+
+ 		function rec_area(length, breadth) {
+ 			document.getElementById('result_rec').innerHTML = length * breadth;
+ 		}
+
+		function cir_area(radius) {
+			let num = radius * radius * 3.141592653589;
+			num = num.toFixed(4);
+ 			document.getElementById('result_cir').innerHTML = num;
+ 		}
+
+		function sph_area(radius) {
+			let num = 4 * radius * radius * 3.141592653589;
+			num = num.toFixed(4);
+ 			document.getElementById('result_sph').innerHTML = num;
+ 		}
+
+		function cub_area(side) {
+ 			document.getElementById('result_cub').innerHTML = side * side * side;
+ 		}
+
+ 		btn_tri.addEventListener('click', function () {
+ 			document.querySelector('#tri_div').style.visibility = "unset";
+ 		});
+
+ 		btn_squ.addEventListener('click', function () {
+ 			document.querySelector('#squ_div').style.visibility = "unset";
+ 		});
+
+ 		btn_rec.addEventListener('click', function () {
+ 			document.querySelector('#rec_div').style.visibility = "unset";
+ 		});
+
+		btn_cir.addEventListener('click', function () {
+ 			document.querySelector('#cir_div').style.visibility = "unset";
+ 		});
+
+		btn_sph.addEventListener('click', function () {
+ 			document.querySelector('#sph_div').style.visibility = "unset";
+ 		});
+
+		btn_cub.addEventListener('click', function () {
+ 			document.querySelector('#cub_div').style.visibility = "unset";
+ 		});
+ </script>
+ <noscript>please enable your javascript or check your system.</noscript>	
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pattern </title>
+</head>
+<body>
+<script type="text/javascript">
+	   var row;
+	   var col;
+       row=8;
+       col=5;
+     for(var i=1;i<=row;i++){
+        for(var j=1;j<=col;j++){
+            if(i==1 || i==row){
+                document.write("&nbsp*");
+            } 
+            else if(j==1 || j==col){
+                document.write("*");
+            }
+            else
+            document.write("&nbsp &nbsp&nbsp"); 
+        }
+        document.write("<br>"); 
+    }
+</script>
+</body>
+</html>

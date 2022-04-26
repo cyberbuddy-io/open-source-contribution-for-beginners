@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript Popup Box</h2>
+
+
+    <button onclick="myFunction()">Hello</button>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            var txt;
+            if (confirm("My first Github Contribution.")) {
+                txt = "You pressed OK!";
+            } else {
+                txt = "You pressed Cancel!";
+            }
+            document.getElementById("demo").innerHTML = txt;
+        }
+    </script>
+
+</body>
+
+</html>

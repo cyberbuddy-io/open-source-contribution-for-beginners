@@ -21,6 +21,8 @@ The following text explains how to push your local changes to the remote reposit
 	ii. Sublime for HTML, CSS and JS
 
 	iii. Or any other IDE of your choice
+	
+	iii
 
 # How to contribute:
 

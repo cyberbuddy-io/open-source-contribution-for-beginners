@@ -1,0 +1,45 @@
+body {
+    background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--YtxZHNsY--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/f5tzpogltw730jx3lb56.jpg");
+}
+
+#main-container {
+    width: 75%;
+    color: white;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#pass-box {
+    /* border: 1px solid red; */
+    width: 75%;
+    position: relative;
+    left: 12.5%;
+    background: rgba(0, 0, 0, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    font-size: 1.5em;
+}
+
+button {
+    background: #000;
+    color: white;
+    border-radius: 10px;
+}
+
+@media (min-width: 600px) {
+    #main-container {
+        width: 50%;
+    }
+
+    #pass-box {
+        width: 50%;
+        left: 25%;
+    }
+}

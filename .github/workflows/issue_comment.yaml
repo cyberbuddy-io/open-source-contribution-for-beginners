@@ -17,4 +17,5 @@ jobs:
             issue-number: ${{ github.event.issue.number }}
             body: |
               Hey Contributor! You can start working on the issue. Good luck!
+              Please comment "/assign" to get this issue assigned to you.
               

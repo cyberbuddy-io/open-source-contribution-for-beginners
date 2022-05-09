@@ -1,8 +1,12 @@
 # Open source:octocat: contribution for beginners 
 
+![Know Your Code (1)](https://user-images.githubusercontent.com/70315395/162400606-00ba8c10-cfcb-4923-82ba-45dbcff6409b.png)
+
 ![GitHub](https://img.shields.io/github/license/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub contributors](https://img.shields.io/github/contributors/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub issues](https://img.shields.io/github/issues-raw/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/cyberbuddy-io/open-source-contribution-for-beginners) ![GitHub last commit](https://img.shields.io/github/last-commit/cyberbuddy-io/open-source-contribution-for-beginners)
 
-This repository targets beginners:beginner: to guide them about open source and help them make their first contribution.
+This repository targets beginners:beginner: to guide them about open source, help them make their first contribution and help them know their code.
+
+The following text explains how to push your local changes to the remote repository and how to create a Pull Request. If you already know that, just go through the [Contributing Guidelines](https://github.com/cyberbuddy-io/open-source-contribution-for-beginners/blob/master/CONTRIBUTING.md) and you are ready to contribute!
 
 ## This Project is 
 <a href="https://vercel.com/?utm_source=opencyberbuddy&utm_campaign=oss"><img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"></a>
@@ -71,8 +75,9 @@ This repository targets beginners:beginner: to guide them about open source and 
 
 9. Push the changes
    `git push -u origin <your-branch-name>`
+10. Create an issue in the repository describing the changes you want to make. To know how to do that, see the [Contributing Guidelines](https://github.com/cyberbuddy-io/open-source-contribution-for-beginners/blob/master/CONTRIBUTING.md).
 
-10. Pull request(requesting the project creator to add/merge your changes to the main repository)
+11. Pull request(requesting the project creator to add/merge your changes to the main repository)
 
 	i. Ensure that you make PR to the right branch.
 
@@ -90,9 +95,9 @@ This repository targets beginners:beginner: to guide them about open source and 
 	iv. Make sure to mention the issue you want to fix in the description of your pull request. (Format :`Refer to issue #<issue-number>`)
 
 
-11. Now you just have to wait for the project creator/owner to review your request and merge your changes
+12. Now you just have to wait for the project creator/owner to review your request and merge your changes
     to the original code. 
-    **Congratulations on doing your very first contribution to an open source!:fist_right::fist_left:**
+    **Congratulations on making your very first open-source contribution!:fist_right::fist_left:**
 
 
-	**This Documentation is maintained by [@MJ-03](https://github.com/MJ-03).**
+	

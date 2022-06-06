@@ -100,4 +100,4 @@ The following text explains how to push your local changes to the remote reposit
     **Congratulations on making your very first open-source contribution!:fist_right::fist_left:**
 
 
-	
+This repository is a collaborative project and is handeled by [@lovishprabhakar](https://github.com/lovishprabhakar)

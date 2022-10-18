@@ -16,7 +16,7 @@ int main()
         }
     }
 
-    cout << "MAtrix is: \n";
+    cout << "Matrix is: \n";
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < m; j++)
@@ -33,9 +33,10 @@ int main()
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
             if(arr[i][j]==x){
-                cout<<"row is"<<i<<endl;
-                cout<<"column is"<<j<<endl;
+                cout<<"row is "<<i<<endl;
+                cout<<"column is "<<j<<endl;
                 flag=true;
+                break;
             }
         }
     }

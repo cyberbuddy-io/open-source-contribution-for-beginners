@@ -18,7 +18,7 @@ The following text explains how to push your local changes to the remote reposit
 
 	i. VSCode
 
-	ii. Sublime (My personal favourite) for HTML, CSS and JS
+	ii. Sublime for HTML, CSS and JS
 
 	iii. Or any other IDE of your choice
 

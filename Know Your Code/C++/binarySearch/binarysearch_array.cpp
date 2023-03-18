@@ -1,5 +1,8 @@
 #include<iostream>
 using namespace std;
+// Note : Binary search works on sorted array only.
+// Time Complexity : O(log n)
+// Space Complexity : O(1)
 
 int binarysearch(int arr[],int n,int key){ 
         int s=0;

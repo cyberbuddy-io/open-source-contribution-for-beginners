@@ -1,0 +1,71 @@
+import random
+from hangman_art import stages, logo
+
+# Sample word lists for categories
+word_categories = {
+    "Animals": ["cat", "dog", "elephant", "giraffe", "kangaroo"],
+    "Food": ["pizza", "pasta", "burger", "sushi", "salad"],
+    "Movies": ["inception", "titanic", "avatar", "gladiator", "joker"]
+}
+
+def choose_category():
+    print("Choose a category:")
+    for i, category in enumerate(word_categories.keys(), 1):
+        print(f"{i}. {category}")
+    choice = int(input("Enter the number of your choice: ")) - 1
+    category_name = list(word_categories.keys())[choice]
+    return random.choice(word_categories[category_name]), category_name
+
+def hangman():
+    print(logo)
+    
+    chosen_word, category = choose_category()
+    word_length = len(chosen_word)
+    display = ["_"] * word_length
+    lives = len(stages) - 1
+    used_letters = []
+
+    print(f"\nCategory: {category}")
+    print(f"{' '.join(display)}")
+
+    while True:
+        guess = input("Guess a letter (or type 'hint' for a hint): ").lower()
+
+        if guess == "hint":
+            if lives > 1:
+                for i in range(word_length):
+                    if display[i] == "_":
+                        display[i] = chosen_word[i]  # Reveal one letter
+                        lives -= 1  # Lose a life for using a hint
+                        print(f"Hint used! Revealed letter: {chosen_word[i]}")
+                        break
+            else:
+                print("No lives left to use a hint.")
+            continue
+
+        if guess in used_letters:
+            print(f"You've already guessed {guess}")
+            continue
+
+        used_letters.append(guess)
+
+        if guess in chosen_word:
+            for position in range(word_length):
+                if chosen_word[position] == guess:
+                    display[position] = guess
+            print(f"{' '.join(display)}")
+        else:
+            print(f"You guessed {guess}, that's not in the word. You lose a life.")
+            lives -= 1
+
+        if lives == 0:
+            print("You lose. The word was:", chosen_word)
+            break
+
+        if "_" not in display:
+            print("You win! The word was:", chosen_word)
+            break
+
+        print(stages[lives])
+
+hangman()

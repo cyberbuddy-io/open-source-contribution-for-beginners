@@ -159,6 +159,7 @@ section .card h1 {
 	background-size: 350%;
   background-repeat: no-repeat;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 

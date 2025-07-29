@@ -1,0 +1,21 @@
+name: Create a comment on new issues.
+
+on:
+  issues:
+    types: [opened]
+    
+jobs:
+  comment-with-action:
+      runs-on: ubuntu-latest
+      steps:
+        - name: "dump github context"
+          run: echo '${{ toJSON(github.event) }}' | jq
+          shell: bash
+        - name: create comment
+          uses: peter-evans/create-or-update-comment@v1
+          with:
+            issue-number: ${{ github.event.issue.number }}
+            body: |
+              Hey Contributor! You can start working on the issue. Good luck!
+              Please comment "/assign" to get this issue assigned to you.
+              

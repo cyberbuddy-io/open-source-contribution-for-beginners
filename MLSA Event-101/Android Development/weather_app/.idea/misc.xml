@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programming/android-frontend-java/weather_app/app/src/main/res/font/roboto_slab_bold.xml" value="0.384375" />
+        <entry key="..\:/SWOC-Dezenix/android-java/weather_app/app/src/main/res/drawable/celsius.xml" value="1.4285714285714286" />
+        <entry key="..\:/SWOC-Dezenix/android-java/weather_app/app/src/main/res/drawable/celsiussmall.xml" value="0.22239583333333332" />
+        <entry key="..\:/SWOC-Dezenix/android-java/weather_app/app/src/main/res/drawable/home.xml" value="0.37037037037037035" />
+        <entry key="..\:/SWOC-Dezenix/android-java/weather_app/app/src/main/res/drawable/list.xml" value="0.37037037037037035" />
+        <entry key="..\:/SWOC-Dezenix/android-java/weather_app/app/src/main/res/drawable/search.xml" value="0.37037037037037035" />
+        <entry key="..\:/SWOC-Dezenix/android-java/weather_app/app/src/main/res/drawable/selected_color.xml" value="0.37037037037037035" />
+        <entry key="..\:/SWOC-Dezenix/android-java/weather_app/app/src/main/res/layout/activity_main.xml" value="0.36770833333333336" />
+        <entry key="..\:/SWOC-Dezenix/android-java/weather_app/app/src/main/res/layout/cities.xml" value="0.36770833333333336" />
+        <entry key="..\:/SWOC-Dezenix/android-java/weather_app/app/src/main/res/layout/day_weather_layout.xml" value="0.36770833333333336" />
+        <entry key="..\:/SWOC-Dezenix/android-java/weather_app/app/src/main/res/layout/details.xml" value="0.36770833333333336" />
+        <entry key="..\:/SWOC-Dezenix/android-java/weather_app/app/src/main/res/layout/home.xml" value="0.33" />
+        <entry key="..\:/SWOC-Dezenix/android-java/weather_app/app/src/main/res/layout/info.xml" value="0.36770833333333336" />
+        <entry key="..\:/SWOC-Dezenix/android-java/weather_app/app/src/main/res/layout/search.xml" value="0.22" />
+        <entry key="..\:/SWOC-Dezenix/android-java/weather_app/app/src/main/res/layout/week.xml" value="0.36770833333333336" />
+        <entry key="..\:/SWOC-Dezenix/android-java/weather_app/app/src/main/res/menu/menu.xml" value="0.36770833333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

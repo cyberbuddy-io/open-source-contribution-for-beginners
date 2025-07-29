@@ -1,0 +1,418 @@
+/* Global Settings */
+
+:root {
+    font-family: 'Baloo Chettan 2', cursive;
+    color: white;
+    background-color: rgb(216, 240, 6);
+}
+
+::-webkit-scrollbar {
+    width: .2rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: hsl(0, 0%, 5%);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(216, 240, 6);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+    transition: .3s;
+}
+
+.anchor {
+    display: block;
+    visibility: hidden;
+    position: relative;
+    top: -10rem;
+}
+
+a:hover {
+    color: rgb(216, 240, 6);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Header Section */
+
+header {
+    width: 100%;
+    height: 4rem;
+    background-color: hsl(0, 0%, 5%);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header .navbar {
+    display: grid;
+    grid-template: 4rem / repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+header .navbar:hover .dropdown {
+    display: block;
+}
+
+header .navbar .logo {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: white;
+    padding: 0 1rem;
+    justify-self: left;
+}
+
+header .navbar .logo:hover {
+    cursor: pointer;
+}
+
+header .navbar i {
+    font-size: 2rem;
+    margin-right: .7rem;
+    color: rgb(216, 240, 6);
+    justify-self: right;
+    transition: .3s;
+}
+
+header .navbar i:hover {
+    color: white;
+    cursor: pointer;
+}
+
+header .logo h1 {
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+header .navbar .searchbar {
+    width: 100%;
+}
+
+header .navbar .searchbar input {
+    border: 1px solid white;
+    height: 2rem;
+    width: 100%;
+    padding: 0 2rem;
+    border: 1px solid rgb(216, 240, 6);
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 15%);
+    color: white;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    header .navbar {
+        grid-template-columns: 20rem 1fr 1fr;
+    }
+    header .navbar .searchbar input {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header .navbar {
+        grid-template-columns: 20rem 1fr 8.4375rem;
+    }
+}
+
+
+/* Nav Menu Section */
+
+header .navbar .dropdown {
+    grid-area: 2 / span 3;
+    display: none;
+    width: 100%;
+    height: 4rem;
+    background-color: hsl(0, 0%, 5%);
+    border-top: 1px solid hsl(0, 0%, 15%);
+    transition: 1s;
+    opacity: .9;
+}
+
+header .navbar .dropdown:hover {
+    display: block;
+}
+
+header .navbar .dropdown ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .navbar .dropdown ul li {
+    margin: 0 2rem;
+    font-size: 1.2rem;
+}
+
+
+/* Caption Section */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(80vh - 4rem);
+    background: linear-gradient(0deg, #262626 50%, #5f5f5f 100%);
+}
+
+main .content {
+    position: relative;
+    top: -8rem;
+}
+
+main .content .caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 32rem;
+}
+
+main .content .caption h1 {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+}
+
+main .content .caption h2 {
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+
+/* Games Section */
+
+.games .content {
+    position: relative;
+    width: 100%;
+    top: -20rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: -15rem;
+}
+
+.games .content .container {
+    position: relative;
+    display: grid;
+    grid-template: 30% 1fr 10% / 1fr;
+    padding: 2rem;
+    margin: 2rem;
+    height: 60rem;
+    width: 20rem;
+    min-width: 20rem;
+    background-color: hsl(0, 0%, 5%);
+    border: 1px solid rgb(216, 240, 6);
+    transition: 1s;
+}
+
+.games .content .container .img-container {
+    grid-area: 1 /span 1;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.games .content .container .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.games .content .container .content-description {
+    grid-area: 2 / span 1;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.games .content .container .content-description h3 {
+    font-size: 1.6rem;
+}
+
+.games .content .container .content-description p {
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.games .content .container button {
+    grid-area: 3 / span 1;
+    height: 4rem;
+    background-color: rgb(216, 240, 6);
+    border: none;
+    border-radius: 20rem;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 1.2rem;
+    transition: .3s;
+}
+
+.games .content .container button:hover {
+    background-color: hsl(0, 0%, 5%);
+    color: rgb(216, 240, 6);
+    border: 1px solid rgb(216, 240, 6);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    section .content {
+        top: -15rem;
+    }
+}
+
+
+/* About Section */
+
+.about {
+    width: 100%;
+}
+
+.about .content {
+    display: flex;
+    width: 100%;
+}
+
+.about .content p {
+    box-sizing: border-box;
+    width: 50%;
+    background-color: hsl(0, 0%, 5%);
+    padding: 2rem;
+    margin-left: 2rem;
+}
+
+.about .content .img-container {
+    width: 50%;
+    overflow: hidden;
+    margin-right: 2rem;
+}
+
+.about .content .img-container img {
+    display: absolute;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.about h1 {
+    text-align: center;
+    position: relative;
+    background-color: hsl(0, 0%, 5%);
+    font-size: 3rem;
+    width: 35%;
+    margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 1300px) {
+    .about .content {
+        display: block;
+    }
+    .about .content p {
+        margin: 0;
+        width: 100%;
+    }
+    .about .content .img-container {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+
+/* Team Section */
+
+.team {
+    width: 100%;
+    margin: 5rem 0;
+}
+
+.team h1 {
+    text-align: center;
+    background-color: hsl(0, 0%, 5%);
+    width: 35%;
+    float: right;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+.team .content {
+    clear: right;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team .content .member {
+    box-sizing: border-box;
+    width: 15rem;
+    min-width: 15rem;
+    height: 20rem;
+    text-align: center;
+    background-color: hsl(0, 0%, 5%);
+    padding: 2rem;
+    margin: 1rem 2rem;
+}
+
+.team .content .member .img-container {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.team .content .member .img-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top right;
+}
+
+
+/* Contact Section */
+
+.contact {
+    background-color: hsl(0, 0%, 15%);
+    width: 100%;
+}
+
+.contact h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contact .details {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
+/* Footer Section */
+
+footer {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    background-color: hsl(0, 0%, 5%);
+    padding: 0 2rem;
+}

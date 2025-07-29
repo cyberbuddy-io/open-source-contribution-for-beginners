@@ -1,0 +1,1 @@
+A python program that generates a random password that is 8 in length and contains 2 uppercase letters, 2 lowercase letters, 2 numbers and 2 symbols. 

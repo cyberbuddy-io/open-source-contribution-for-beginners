@@ -1,0 +1,1 @@
+This is a basic python app of countdown timer. You need to give your input time in seconds.

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Payment Form</title>
+        <!-- <link rel="stylesheet" href="forms.cyberbuddy.io/style.css"> -->
+    </head>
+    <body style="background-color: rgb(135, 190, 222);">
+        <form action="">
+            <h1 style="text-align: center;"><u>Payment Form</u></h1>
+        <ul>
+            <li><h2><u>Contact Information</u></h2></li>
+
+            <div class="name">
+            <p>
+                Name: <input type="text" name="name" required placeholder="Enter your fullname">
+            </p>
+            </div>
+
+            <div class="gender">
+            <fieldset>
+                <legend>Gender</legend>
+            <p>
+                Male <input type="radio" name="gender" id="gender" required>
+                Female <input type="radio" name="gender" id="gender" required> 
+            </p>
+            </fieldset>
+            </div>
+
+            <div class="address">
+            <p>
+                Address: <textarea name="" id="" cols="80" rows="10" placeholder="Enter your permanent address"></textarea>
+            </p>
+            </div>
+
+            <div class="email">
+            <p>
+                Email: <input type="email" name="email" id="email" required placeholder="Enter your email">
+            </p>
+            </div>
+
+            <div class="pin">
+            <p>
+                Pincode: <input type="number" name="pin" id="pin" required placeholder="Enter pincode">
+            </p>
+            </div>
+            <hr>
+
+            <li><h2><u>Payment Information</u></h2></li>
+        </ul>
+            <div class="type">
+            <p>Card Type:
+                <select name="card_type" id="card_type">
+                    <option value=""> --Select a card type-- </option>
+                    <option value="Visa">Visa</option>
+                    <option value="Mastercard">Mastercard</option>
+                </select>
+            </p>
+            </div>
+
+            <div class="num">
+            <p>
+                Card Number: <input type="number" name="card_number" id="card_number" required placeholder="Enter card number"> 
+            </p>
+            </div>
+
+            <div class="exp">
+            <p>
+                Expiration Date: <input type="date" name="date" id="date" required> 
+            </p>
+            </div>
+
+            <div class="cvv">
+            <p>
+            CVV: <input type="password" name="cvv" id="cvv" required placeholder="Enter CVV">
+            </p>
+            </div>
+            <hr>
+
+            <div class="submit">
+            <button type="submit">Pay Now</button>
+            <button type="reset">Reset</button>
+            </div>
+
+        </form>
+    </body>
+</html>

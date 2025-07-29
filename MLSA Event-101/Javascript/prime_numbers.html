@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prime_numbers</title>
+    </head>
+    <body>
+        <input id="number" type="number" placeholder="please enter a number"/>
+        <input id="submit" type="submit" onclick="prime_numbers()" />
+        <p id="p"></p>
+        <script>
+            function prime_numbers() {
+                const a = document.getElementById("number");
+                var flag = 0;
+                for (let i = 2; i < a.value; i++) {
+                    if (a.value%i == 0) {
+                        flag = 1;
+                    }
+                }
+                document.getElementById("p").innerHTML = flag;
+                document.getElementById("p").style.backgroundColor = "red";
+            }
+        </script>
+    </body>
+</html>
+

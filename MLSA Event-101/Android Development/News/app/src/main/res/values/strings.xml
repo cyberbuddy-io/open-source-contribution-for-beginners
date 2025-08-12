@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="news">News</string>
+    <string name="categories">Categories</string>
+    <string name="news_headline">News Headline</string>
+    <string name="sublines">Sublines</string>
+    <string name="full">Read Full Article</string>
+    <string name="from_sayam">From Sayam</string>
+</resources>

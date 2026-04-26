@@ -98,6 +98,3 @@ The following text explains how to push your local changes to the remote reposit
 12. Now you just have to wait for the project creator/owner to review your request and merge your changes
     to the original code. 
     **Congratulations on making your very first open-source contribution!:fist_right::fist_left:**
-
-
-This repository is a collaborative project and is handeled by [@lovishprabhakar](https://github.com/lovishprabhakar)

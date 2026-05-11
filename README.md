@@ -1,4 +1,4 @@
-# Open source:octocat: contribution for beginners 
+Open source:octocat: contribution for beginners 
 
 ![Know Your Code (1)](https://user-images.githubusercontent.com/70315395/162400606-00ba8c10-cfcb-4923-82ba-45dbcff6409b.png)
 
@@ -8,7 +8,7 @@ This repository targets beginners:beginner: to guide them about open source, hel
 
 The following text explains how to push your local changes to the remote repository and how to create a Pull Request. If you already know that, just go through the [Contributing Guidelines](https://github.com/cyberbuddy-io/open-source-contribution-for-beginners/blob/master/CONTRIBUTING.md) and you are ready to contribute!
 
-## This Project is 
+This Project is 
 <a href="https://vercel.com/?utm_source=opencyberbuddy&utm_campaign=oss"><img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"></a>
 
 # Prerequisites: 
